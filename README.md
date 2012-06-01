@@ -1,8 +1,18 @@
 Read me for GAble
 
-Create binary with 
+SETUP
+Run through ghci or
+
+Compile
 ghc --make -o Gable Gable.hs
 
+Change permissions
+chmod o+x Gable
+
+Run
+./Gable
+
+Set
 TODO:
 - Display generational stats
 - Roulette wheel
